@@ -6,5 +6,5 @@ Use notepad as editor for java programing.
 Use command prompt to debug, compile and run java classes. 
 Know about java versions, java compiler and java runtime. 
 Can create cutom outputs using printf.
-
+Create your GitHub accounts. 
 
