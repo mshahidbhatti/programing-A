@@ -1,0 +1,10 @@
+You must do before coming to next week Lab. 
+Install JDK, Runtime on your laptop. 
+Set java paths in environment variables of your system. 
+Create a java application class using print, println and printf methods.
+Use notepad as editor for java programing. 
+Use command prompt to debug, compile and run java classes. 
+Know about java versions, java compiler and java runtime. 
+Can create cutom outputs using printf.
+
+

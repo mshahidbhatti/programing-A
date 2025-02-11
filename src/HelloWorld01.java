@@ -9,7 +9,7 @@ class HelloWorld01{
 
 		//%s is format specifier for String
 
-		System.out.printf("%03d %-20s\t %12s %.2f\n",1,"Abdul Wahab","FA24-BCS-004",3.5);
+System.out.printf("%03d %-20s\t %12s %.2f\n",1,"Abdul Wahab","FA24-BCS-004",3.5);
 System.out.printf("%03d %-20s\t %12s %.2f\n",2,"Abdul Wahab","FA24-BCS-004",3.5);
 
 System.out.printf("%03d %20s\t %12s %.2f\n",3,"Abdul Wahab","FA24-BCS-004",3.5);
