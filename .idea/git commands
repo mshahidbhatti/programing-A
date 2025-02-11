@@ -1,0 +1,8 @@
+Recap of Key Git Commands
+git fetch origin	Fetch the latest changes from the remote
+git pull origin main	Fetch and merge changes into your local
+
+git add .	Stage all new and modified files
+git commit -m "msg"	Commit changes with a message
+git push origin main	Push changes to the remote repository
+git status	Show the current status of the repository
