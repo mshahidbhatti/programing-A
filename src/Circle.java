@@ -3,7 +3,7 @@ class Circle{
 
 	//data , properties, attributes 
 	// all primitive types are by default inti. by 0, or 0.0 and false in case of boolean
-	double radius;
+	private double radius;
 
 
 	//method, function, public is an access modifier 
