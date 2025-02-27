@@ -2,6 +2,8 @@ public class OuterClass{
 
 	int abc;
 
+	
+
 
 	class InnerClass{
 		public void printIt(){
