@@ -9,7 +9,10 @@ public class Person{
 		this.dob=dob;
 
 	}
-	Person(){
+	Person(Person person){
+		this.name=person.name;
+
+		dob=new Date(person.getDOB().day,person.getDOB().month,person.getDOB().year);
 
 	}
 
