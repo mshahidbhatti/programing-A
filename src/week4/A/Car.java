@@ -14,6 +14,7 @@ public class Car{
 	}
 
 	public boolean equals(Object o){
-		return true;
+		Car a=(Car)o
+		return this.engine.equals(a.engine);
 	}
 }
