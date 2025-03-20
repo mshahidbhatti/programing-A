@@ -1,0 +1,19 @@
+    int [][] array=new int[20][20];
+
+		display(array);
+
+
+	public void display(int a[][]){
+
+			for(int i=0;i<.......)
+				display1D(a[i])
+
+				
+
+	}
+
+	void display1D(){
+
+				for(int j=0;j<.......)
+					sout(a[i][j])
+	}

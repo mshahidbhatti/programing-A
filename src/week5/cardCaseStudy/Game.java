@@ -1,6 +1,7 @@
 public class Game{
 	Deck deck;
 	Player players[];
+
 	public Game(int numberOfPlayers){
 
 		deck=new Deck();

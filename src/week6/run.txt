@@ -1,0 +1,4 @@
+javac --enable-preview --release 21 -d . -Xlint:preview util\Person.java util\Shape.java util\Vehicle.java Demo.java
+
+
+C:\temp\oop\OOPSP25A\src\week6>java --enable-preview Demo
