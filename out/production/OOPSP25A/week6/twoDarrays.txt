@@ -1,0 +1,74 @@
+float arr[][][]=new int[10][][];
+
+
+arr[0]=new int[6][];
+arr[0][0]=new int[8];
+
+
+
+Seat seats[][]=new Seat[5][];
+
+
+for(int i=0;i<seats.length;i++)
+	seats[i]=new Seat[9+i];
+
+for(int i=0;i<seats.length;i++)
+	for(int j=0;j<seats[i].length;j++)
+		seats[i][j]=new Seat(,,,,,);
+
+	
+seats[i][j].setPrice(seats[i][j].getPrice()*10+);
+
+
+1. Seat Class
+Represents an individual seat in the cinema.
+
+seatNumber → Unique seat number
+rowNumber → Row in the screen
+type → Type of seat (enum: REGULAR, VIP, RECLINER)
+isBooked → Boolean to check booking status
+price → Price of the seat based on type
+
+
+2. Screen Class
+Represents a cinema screen.
+
+screenNumber → Unique screen ID
+movieTitle → Current movie playing
+seats[][] → 2D array representing seat arrangement
+totalSeats → Total number of seats in the screen
+availableSeats → Number of available seats
+
+
+
+3. Cinema Class
+Represents a cinema hall with multiple screens.
+
+cinemaName → Name of the cinema
+location → Address of the cinema
+contactNumber → Contact number of the cinema
+screens[] → Array of screens
+totalScreens → Total number of screens
+
+
+
+1. Customer Class
+Represents the person booking the ticket.
+Attributes:
+customerId → Unique customer ID
+name → Name of customer
+phoneNumber → Contact number
+email → Email address
+
+2. Ticket Class
+Represents a ticket issued for a booked seat.
+Attributes:
+ticketId → Unique ticket ID
+customer → A reference to the Customer object
+screenNumber → Screen number
+seatNumber → Seat number
+movieTitle → Movie name
+price → Price of the seat
+Methods:
+Generate ticket details
+Display ticket
