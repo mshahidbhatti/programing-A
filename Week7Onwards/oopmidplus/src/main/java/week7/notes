@@ -1,0 +1,17 @@
+super()
+super.age
+super.calSalary()
+this()
+this.age
+this.calSalary()
+
+
+@Override  //annotation
+
+oerriden method , -> private //illegal
+oerriden method , -> static //illegal
+
+
+public final void display(){}
+
+cannot restrict access level in child classes
